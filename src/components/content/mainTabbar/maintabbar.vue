@@ -1,21 +1,21 @@
 <template>
   <tabbar>
-    <tabbaritem path="/home" activeColor="red">
+    <tabbaritem path="/home" activeColor="#ff8198">
       <img src="@/assets/img/tabbar/首页.png" alt="" slot="tabbaricon">
       <img src="@/assets/img/tabbar/首页点击.png" alt="" slot="tabbaricon-active">
       <div slot="tabbername">首页</div>
     </tabbaritem>
-    <tabbaritem path="/category" >
+    <tabbaritem path="/category" activeColor="#ff8198">
       <img src="@/assets/img/tabbar/分类.png" alt="" slot="tabbaricon">
       <img src="@/assets/img/tabbar/分类点击.png" alt="" slot="tabbaricon-active">
       <div slot="tabbername">分类</div>
     </tabbaritem>
-    <tabbaritem path="/cart" >
+    <tabbaritem path="/cart" activeColor="#ff8198">
       <img src="@/assets/img/tabbar/购物车.png" alt="" slot="tabbaricon">
       <img src="@/assets/img/tabbar/购物车点击.png" alt="" slot="tabbaricon-active">
       <div slot="tabbername">购物车</div>
     </tabbaritem>
-    <tabbaritem path="/profile" >
+    <tabbaritem path="/profile" activeColor="#ff8198">
       <img src="@/assets/img/tabbar/个人中心.png" alt="" slot="tabbaricon">
       <img src="@/assets/img/tabbar/个人中心点击.png" alt="" slot="tabbaricon-active">
       <div slot="tabbername">个人中心</div>
