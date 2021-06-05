@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <maintabbar></maintabbar>
-    <router-view></router-view>
+    <maintabbar class="tabber"></maintabbar>
+    <keep-alive exclude="detail">
+<!-- 保证路由活跃不被摧毁，在跳转到其他路由再回去时可以记录状态     -->
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 <script>
@@ -16,4 +19,8 @@ export default {
 </script>
 <style>
 @import "assets/css/base.css";
+.tabber{
+  position: fixed;
+  z-index: 10;
+}
 </style>
